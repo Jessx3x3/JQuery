@@ -1,0 +1,16 @@
+#box{
+    width: 950px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: black;
+    outline: solid black;
+}
+img{
+    width: 90%;
+    height: 90%;
+    outline: solid blanchedalmond;
+    margin: 3.5%;
+    padding: 2%;
+}
